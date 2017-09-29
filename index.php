@@ -6,4 +6,4 @@ $app->initLayout("Centered");
 $button = $app->add('Button');
 $button->set('Add invoice');
 $button->icon = 'plus';
-$button->link('https://www.facebook.com/');
+$button->link('https://www.youtube.com/');
