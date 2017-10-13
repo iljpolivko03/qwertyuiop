@@ -1,6 +1,6 @@
 <?php
 echo "O privet";
 require 'vendor/autoload.php';
-$app = new \atk4\ui\App("A ja tebja znaju");
+$app = new \atk4\ui\App("Добро пожаловать");
 $app->initLayout("Centered");
 $label=$app->add(['Label','Поиск']);
