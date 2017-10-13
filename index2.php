@@ -3,7 +3,7 @@ echo "O privet";
 require 'vendor/autoload.php';
 $app = new \atk4\ui\App("Добро пожаловать");
 $app->initLayout("Centered");
-$label=$app->add(['Label','Ilya','detail'=>'Polivko']);
+$label=$app->add(['Label','Мой','detail'=>'Поиск']);
 
 $button= $app->add(['Button','Ilja']);
 $button->link('index.php');
