@@ -20,3 +20,4 @@ $button->icon = 'plus';
 $button->link('https://www.e-klase.lv/lv/');
 */
 $button= $app->add(['Button','Ilja']);
+$Button->link('index2.php');
