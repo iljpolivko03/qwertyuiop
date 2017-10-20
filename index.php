@@ -42,42 +42,52 @@ $label->addClass('medium green');
 $a= 0;
   if ($a>0) {
     $name='Верно!';
+    $color='green';
+
   }else{
     $name='Неверно!';
+    $color='red';
+
   }
 
 $label=$app->add(['Label',$name]);
-$label->addClass('medium green');
+$label->addClass($color);
 
 $a= 0;
   if ($a<0) {
     $name='Верно!';
+    $color='green';
   }else{
     $name='Неверно!';
+    $color='red';
   }
 
 $label=$app->add(['Label',$name]);
-$label->addClass('medium green');
+$label->addClass($color);
 
 $a= 0;
   if ($a>=0) {
     $name='Верно!';
+    $color='green';
   }else{
     $name='Неверно!';
+    $color='red';
   }
 
 $label=$app->add(['Label',$name]);
-$label->addClass('medium green');
+$label->addClass($color);
 
 $a= 0;
   if ($a<=0) {
     $name='Верно!';
+    $color='green';
   }else{
     $name='Неверно!';
+    $color='red';
   }
 
 $label=$app->add(['Label',$name]);
-$label->addClass('medium green');
+$label->addClass($color);
 
 $a= tesst;
   if ($a=='test') {
@@ -94,9 +104,11 @@ $label->addClass($color);
 $a= 0;
   if ($a!=0) {
     $name='Верно!';
+    $color='green';
   }else{
     $name='Неверно!';
+    $color='red';
   }
 
 $label=$app->add(['Label',$name]);
-$label->addClass('medium green');
+$label->addClass($color);
