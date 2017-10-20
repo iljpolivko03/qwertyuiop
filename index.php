@@ -24,7 +24,7 @@ $button->link('https://www.aliexpress.com');
 
 $button= $app->add(['Button','index2']);
 $button->link('index2.php');
-$button->addClass('medim green');
+$button->addClass('medium green');
 
 $text=$app->add(['Text','Here can be text']);
 $text->addParagraph('Text');
@@ -37,3 +37,4 @@ $a= 4;
   }
 
 $label=$app->add(['Label',$name]);
+$label->addClass('medium green');
