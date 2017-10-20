@@ -22,3 +22,6 @@ $button->link('https://www.e-klase.lv/lv/');
 $button= $app->add(['Button','Ilja']);
 $button->link('index2.php');
 $button->addClass('Massive Blue');
+
+$text=$app->add(['Text','Here can be text']);
+$text->addParagraph('Text');
