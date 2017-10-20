@@ -30,7 +30,7 @@ $text=$app->add(['Text','Here can be text']);
 $text->addParagraph('Text');
 
 $a= 4;
-  if ($a==0) {
+  if ($a!=0) {
     $name='Верно!';
   }else{
     $name='Неверно!';
