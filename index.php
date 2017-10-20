@@ -31,7 +31,9 @@ $text->addParagraph('Text');
 
 $a= 3;
   if ($a>0) {
-    echo'Верно!';
+    $name='Верно!';
   }else{
-    echo 'Неверно!';
+    $name='Неверно!';
   }
+
+$label=$app->add(['Label',$name]);
