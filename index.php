@@ -22,9 +22,9 @@ $button->icon = 'Shopping Bag';
 $button->addClass('medium orange');
 $button->link('https://www.aliexpress.com');
 
-$button= $app->add(['Button','Ilja']);
+$button= $app->add(['Button','index2']);
 $button->link('index2.php');
-$button->addClass('Massive Blue');
+$button->addClass('medim green');
 
 $text=$app->add(['Text','Here can be text']);
 $text->addParagraph('Text');
