@@ -29,7 +29,7 @@ $button->addClass('medim green');
 $text=$app->add(['Text','Here can be text']);
 $text->addParagraph('Text');
 
-$a= 0;
+$a= 4;
   if ($a==0) {
     $name='Верно!';
   }else{
