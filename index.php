@@ -11,13 +11,13 @@ $button->link('https://www.youtube.com/');
 
 $button = $app->add('Button');
 $button->set('Add invoice');
-$button->icon = 'plus';
+$button->icon = 'Comments';
 $button->link('https://www.facebook.com/');
 
 $button = $app->add('Button');
 $button->set('Add invoice');
 $button->icon = 'plus';
-$button->link('https://www.e-klase.lv/lv/');
+$button->link('https://www.aliexpress.com');
 
 $button= $app->add(['Button','Ilja']);
 $button->link('index2.php');
