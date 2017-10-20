@@ -30,6 +30,66 @@ $text=$app->add(['Text','Here can be text']);
 $text->addParagraph('Text');
 
 $a= 0;
+  if ($a==0) {
+    $name='Верно!';
+  }else{
+    $name='Неверно!';
+  }
+
+$label=$app->add(['Label',$name]);
+$label->addClass('medium green');
+
+$a= 0;
+  if ($a>0) {
+    $name='Верно!';
+  }else{
+    $name='Неверно!';
+  }
+
+$label=$app->add(['Label',$name]);
+$label->addClass('medium green');
+
+$a= 0;
+  if ($a<0) {
+    $name='Верно!';
+  }else{
+    $name='Неверно!';
+  }
+
+$label=$app->add(['Label',$name]);
+$label->addClass('medium green');
+
+$a= 0;
+  if ($a>=0) {
+    $name='Верно!';
+  }else{
+    $name='Неверно!';
+  }
+
+$label=$app->add(['Label',$name]);
+$label->addClass('medium green');
+
+$a= 0;
+  if ($a<=0) {
+    $name='Верно!';
+  }else{
+    $name='Неверно!';
+  }
+
+$label=$app->add(['Label',$name]);
+$label->addClass('medium green');
+
+$a= tesst;
+  if ($a=='test') {
+    $name='Верно!';
+  }else{
+    $name='Неверно!';
+  }
+
+$label=$app->add(['Label',$name]);
+$label->addClass('medium green');
+
+$a= 0;
   if ($a!=0) {
     $name='Верно!';
   }else{
