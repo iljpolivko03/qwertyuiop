@@ -116,8 +116,4 @@ $label->addClass($color);
 
 $button=$app->add('Button');
 $button->set('КНОПКА');
-$button->link(['index3','name'=>'Ilja']);
-
-$button=$app->add('Button');
-$button->set('KNOPKA');
-$button->link(['index3','surname'=>'Polivko']);
+$button->link(['index3','name'=>'Ilja','Polivko']);

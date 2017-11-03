@@ -5,6 +5,3 @@ $app->initLayout("Centered");
 
 $c=$_GET['name'];
 $label=$app->add(['Label',$c]);
-
-$c=$_GET['surnname'];
-$label=$app->add(['Label',$c]);
