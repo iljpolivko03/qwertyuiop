@@ -113,3 +113,7 @@ $a= 0;
 $label=$app->add(['Label',$name]);
 $label->addClass($color);
 */
+
+$button=$app->add('Button');
+$button->set('КНОПКА')
+$button->link(['index3','name'=>'Ilja']);
