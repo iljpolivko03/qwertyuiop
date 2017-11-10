@@ -26,4 +26,4 @@ $button2->link(['index3','min'=>$min,'max'=>$mid]);
 $button3=$app->add(['Button']);
 $button3->set('Да!Это моё число!');
 $button3->addClass('medium orange');
-$button3->link('index3',)
+$button3->link('index3',);
