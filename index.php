@@ -1,7 +1,7 @@
 <?php
 echo "O privet";
 require 'vendor/autoload.php';
-$app = new \atk4\ui\App("Добро пожаловать");
+$app = new \atk4\ui\App("Добро пожаловать в якобы игру");
 $app->initLayout("Centered");
 /*
 $button = $app->add('Button');
@@ -112,7 +112,7 @@ $a= 0;
 
 $label=$app->add(['Label',$name]);
 $label->addClass($color);
-*/
+
 
 $button=$app->add('Button');
 $button->set('КНОПКА');
@@ -121,5 +121,10 @@ $button->link(['index3','name'=>'Ilja','surname'=>'Polivko']);
 $button1=$app->add(['Label','1']);
 $button2=$app->add(['Label','2']);
 $button3=$app->add(['Label','3']);
-
 $button1=$app->add('Button');
+*/
+  $text=$app->add(['Text','Чтобы начать игру нажмите кнопку']);
+  $button=$app->add(['Button']);
+  $button->set('Играть');
+  $button->link(['index3','min'=>1,'max'=>100]);
+  $button->addClass('blue');
