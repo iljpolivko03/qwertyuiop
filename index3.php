@@ -7,8 +7,11 @@ $c=$_GET['name'];
 $d=$_GET['surname'];
 $label=$app->add(['Label',$c.' '.$d]);
 */
-$min=$_GET['min'];
-$max=$_GET['max'];
+$min=$_GET['min']
+$max=$_GET['max']
+if($max-$min==1){
+  $text=$app->add(['Text','Ты ошибся!'])
+}
 
 $mid=round(($min+$max)/2);
 
