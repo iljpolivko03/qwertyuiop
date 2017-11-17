@@ -11,10 +11,11 @@ $min=$_GET['min'];
 $max=$_GET['max'];
 if($max-$min==1){
   $text=$app->add(['Text','Ты ошибся!']);
-  $button4=$app->add(['Button','Ещё раз']);
-  $button4->link(['index']);
+  $button=$app->add(['Button','Ещё раз']);
+  $button->link(['index']);
   $button->addClass('massive red');
 }
+else{
 
 $mid=round(($min+$max)/2);
 
@@ -35,3 +36,4 @@ $button3=$app->add(['Button']);
 $button3->set('Да!Это моё число!');
 $button3->addClass('medium orange');
 $button3->link(['victory']);
+}
