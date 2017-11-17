@@ -15,9 +15,9 @@ if(($max-$min==1)and(isset($_GET['key']))){
   $button->link(['index']);
   $button->addClass('massive red');
   $img= 'https://www.ccavenue.com/images_mcpg/retry-circle-bg.png';
-  $icon = $app->add(['Image',$img]);
+  $icon = $app->add(['Image', $img]);
 
-else{
+} else {
 
 $mid=round(($min+$max)/2);
 
