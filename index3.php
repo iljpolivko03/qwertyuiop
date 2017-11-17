@@ -14,6 +14,8 @@ if($max-$min==1){
   $button=$app->add(['Button','Ещё раз']);
   $button->link(['index']);
   $button->addClass('massive red');
+  $img= 'https://www.ccavenue.com/images_mcpg/retry-circle-bg.png';
+  $icon = $app->add(['Image',$img]);
 }
 else{
 
