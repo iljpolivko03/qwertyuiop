@@ -9,7 +9,7 @@ $label=$app->add(['Label',$c.' '.$d]);
 */
 $min=$_GET['min'];
 $max=$_GET['max'];
-if($max-$min==1){
+if(($max-$min==1)and(isset($_GET['key'])){
   $text=$app->add(['Text','Ты ошибся!']);
   $button=$app->add(['Button','Ещё раз']);
   $button->link(['index']);
