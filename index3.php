@@ -16,6 +16,12 @@ if($max-$min==1){
   $button->addClass('massive red');
   $img= 'https://www.ccavenue.com/images_mcpg/retry-circle-bg.png';
   $icon = $app->add(['Image',$img]);
+
+  $img1= 'https://www.ccavenue.com/images_mcpg/retry-circle-bg.png';
+  $icon = $app->add(['Image',$img1]);
+
+  $img2= 'https://www.ccavenue.com/images_mcpg/retry-circle-bg.png';
+  $icon = $app->add(['Image',$img2]);
 }
 else{
 
