@@ -6,5 +6,5 @@ $app->initLayout("Centered");
 
 $button=$app->add(['Button']);
 $button->set('Ещё раз');
-$button-link(['index']);
+$button->link(['index']);
 $button->addClass('green');
