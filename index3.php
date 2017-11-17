@@ -9,7 +9,7 @@ $label=$app->add(['Label',$c.' '.$d]);
 */
 $min=$_GET['min'];
 $max=$_GET['max'];
-if(($max-$min==1)and(isset($_GET['key'])){
+if(($max-$min==1)and(isset($_GET['key']))){
   $text=$app->add(['Text','Ты ошибся!']);
   $button=$app->add(['Button','Ещё раз']);
   $button->link(['index']);
@@ -17,12 +17,6 @@ if(($max-$min==1)and(isset($_GET['key'])){
   $img= 'https://www.ccavenue.com/images_mcpg/retry-circle-bg.png';
   $icon = $app->add(['Image',$img]);
 
-  $img1= 'https://www.ccavenue.com/images_mcpg/retry-circle-bg.png';
-  $icon = $app->add(['Image',$img1]);
-
-  $img2= 'https://www.ccavenue.com/images_mcpg/retry-circle-bg.png';
-  $icon = $app->add(['Image',$img2]);
-}
 else{
 
 $mid=round(($min+$max)/2);
