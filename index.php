@@ -1,6 +1,6 @@
 <?php
-echo "O privet";
 require 'vendor/autoload.php';
+require 'Cat.php';
 $app = new \atk4\ui\App("Добро пожаловать в якобы игру");
 $app->initLayout("Centered");
 /*
@@ -122,9 +122,50 @@ $button1=$app->add(['Label','1']);
 $button2=$app->add(['Label','2']);
 $button3=$app->add(['Label','3']);
 $button1=$app->add('Button');
-*/
+
   $text=$app->add(['Text','Чтобы начать игру нажмите кнопку']);
   $button=$app->add(['Button']);
   $button->set('Играть');
   $button->link(['index3','min'=>1,'max'=>100]);
   $button->addClass('blue');
+*/
+
+$cat1=new Cat;
+$cat1->name='Barsik';
+$cat1->color='Grey';
+$cat1->sex='Boy';
+$cat1->age='10';
+$cat1->AgeCheck();
+$label=$app->add(['Label',$cat1->name.' '.$answer]);
+
+$cat2=new Cat;
+$cat2->name='Vasja';
+$cat2->color='White';
+$cat2->sex='Boy';
+$cat2->age='25';
+$cat2->AgeCheck();
+$label=$app->add(['Label',$cat1->name.' '.$answer]);
+
+$cat3=new Cat;
+$cat3->name='Murka';
+$cat3->color='Brown';
+$cat3->sex='Girl';
+$cat3->age='8';
+$cat3->AgeCheck();
+$label=$app->add(['Label',$cat1->name.' '.$answer]);
+
+$cat4=new Cat;
+$cat4->name='Car';
+$cat4->color='Black';
+$cat4->sex='Boy';
+$cat4->age='11';
+$cat4->AgeCheck();
+$label=$app->add(['Label',$cat1->name.' '.$answer]);
+
+$cat5=new Cat;
+$cat5->name='Taison';
+$cat5->color='Grey';
+$cat5->sex='Boy';
+$cat5->age='6';
+$cat5->AgeCheck();
+$label=$app->add(['Label',$cat1->name.' '.$answer]);
