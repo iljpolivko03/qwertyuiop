@@ -176,24 +176,24 @@ $sweet1=new Sweet;
 $sweet1->name='Vaverīte';
 $sweet1->color='green';
 $sweet1->price='7';
-$label=$app->add(['Label',$sweet1->name,$sweet1->color]);
+$label=$app->add(['Label',$sweet1->name,$sweet1->color,'detail'=>$sweet1->price]);
 
 $sweet2=new Sweet;
 $sweet2->name='Lukss';
 $sweet2->color='brown';
 $sweet2->price='9';
-$label2=$app->add(['Label',$sweet2->name,$sweet2->color]);
+$label2=$app->add(['Label',$sweet2->name,$sweet2->color,'detail'=>$sweet2->price]);]);
 
 
 $sweet3= new Sweet;
 $sweet3->name='Laciši';
 $sweet3->color='teal';
 $sweet3->price='5';
-$label3=$app->add(['Label',$sweet3->name,$sweet3->color]);
+$label3=$app->add(['Label',$sweet3->name,$sweet3->color,'detail'=>$sweet3->price]);]);
 
 
 $sweet4= new Sweet;
 $sweet4->name='Serenade';
 $sweet4->color='blue';
 $sweet4->price='8';
-$label4=$app->add(['Label',$sweet4->name,$sweet4->color]);
+$label4=$app->add(['Label',$sweet4->name,$sweet4->color,'detail'=>$sweet4->price]);]);
