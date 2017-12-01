@@ -176,14 +176,14 @@ $sweet1=new Sweet;
 $sweet1->name='Vaverīte';
 $sweet1->color='green';
 $sweet1->price='7';
-$label=$app->add(['Label',$sweet1->name,$sweet1->color,'detail'=>$sweet1->price,'image'=>'https://www.elkor.lv/media/catalog/product/cache/0/image/9df78eab33525d08d6e5fb8d27136e95/v/a/vaverite_tort']);
+$label=$app->add(['Label',$sweet1->name,$sweet1->color,'detail'=>$sweet1->price,'image'=>'https://www.kontoriabi.ee/wp-content/uploads/2017/03/450-00381.jpg']);
 
 
 $sweet2=new Sweet;
 $sweet2->name='Lukss';
 $sweet2->color='red';
 $sweet2->price='9';
-$label2=$app->add(['Label',$sweet2->name,$sweet2->color,'detail'=>$sweet2->price,'image'=>'http://i.ebayimg.com/thumbs/images/g/-EoAAOSwx2dYENET/s-l225.j']);
+$label2=$app->add(['Label',$sweet2->name,$sweet2->color,'detail'=>$sweet2->price,'image'=>'http://i.ebayimg.com/thumbs/images/g/-EoAAOSwx2dYENET/s-l225.jpg']);
 
 
 $sweet3= new Sweet;
