@@ -180,7 +180,7 @@ $label=$app->add(['Label',$sweet1->name,$sweet1->color,'detail'=>$sweet1->price]
 
 $sweet2=new Sweet;
 $sweet2->name='Lukss';
-$sweet2->color='brown';
+$sweet2->color='red';
 $sweet2->price='9';
 $label2=$app->add(['Label',$sweet2->name,$sweet2->color,'detail'=>$sweet2->price]);
 
