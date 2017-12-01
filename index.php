@@ -176,25 +176,25 @@ $sweet1=new Sweet;
 $sweet1->name='Vaverīte';
 $sweet1->color='green';
 $sweet1->price='7';
-$label=$app->add(['Label',$sweet1->name,$sweet1->color,'detail'=>$sweet1->price,'image'=>'https://www.kontoriabi.ee/wp-content/uploads/2017/03/450-00381.jpg']);
+$label=$app->add(['Label',$sweet1->name,$sweet1->color.' massive','detail'=>$sweet1->price,'image'=>'https://www.kontoriabi.ee/wp-content/uploads/2017/03/450-00381.jpg']);
 
 
 $sweet2=new Sweet;
 $sweet2->name='Lukss';
 $sweet2->color='red';
 $sweet2->price='9';
-$label2=$app->add(['Label',$sweet2->name,$sweet2->color,'detail'=>$sweet2->price,'image'=>'http://i.ebayimg.com/thumbs/images/g/-EoAAOSwx2dYENET/s-l225.jpg']);
+$label2=$app->add(['Label',$sweet2->name,$sweet2->color.' massive','detail'=>$sweet2->price,'image'=>'http://i.ebayimg.com/thumbs/images/g/-EoAAOSwx2dYENET/s-l225.jpg']);
 
 
 $sweet3= new Sweet;
 $sweet3->name='Laciši';
 $sweet3->color='teal';
 $sweet3->price='5';
-$label3=$app->add(['Label',$sweet3->name,$sweet3->color,'detail'=>$sweet3->price,'image'=>'http://www.laima.lv/wp-content/uploads/2016/05/4750001340235_L-C-TIS-epain-tis-2kg-konf.jpg']);
+$label3=$app->add(['Label',$sweet3->name,$sweet3->color.' massive','detail'=>$sweet3->price,'image'=>'http://www.laima.lv/wp-content/uploads/2016/05/4750001340235_L-C-TIS-epain-tis-2kg-konf.jpg']);
 
 
 $sweet4= new Sweet;
 $sweet4->name='Serenade';
 $sweet4->color='blue';
 $sweet4->price='8';
-$label4=$app->add(['Label',$sweet4->name,$sweet4->color,'detail'=>$sweet4->price,'image'=>'http://www.la.lv/wp-content/uploads/2013/10/g1/serenade2.gif']);
+$label4=$app->add(['Label',$sweet4->name,$sweet4->color.' massive','detail'=>$sweet4->price,'image'=>'http://www.la.lv/wp-content/uploads/2013/10/g1/serenade2.gif']);
