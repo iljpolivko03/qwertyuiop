@@ -1,6 +1,5 @@
 <?php
 require 'vendor/autoload.php';
-require 'Sweet.php';
 $app = new \atk4\ui\App("Добро пожаловать в якобы игру");
 $app->initLayout("Centered");
 /*
@@ -220,4 +219,4 @@ $form->onSubmit(function ($form) {
   $form->model->save();
   return $form->sucess('Record uptated');
 
-})
+});
