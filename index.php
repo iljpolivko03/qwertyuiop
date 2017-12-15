@@ -171,7 +171,7 @@ $cat5->age='6';
 $cat5->AgeCheck();
 $label=$app->add(['Label',$cat1->name.' '.$answer]);
 
-*/
+
 $sweet1=new Sweet;
 $sweet1->name='Vaverīte';
 $sweet1->color='green';
@@ -198,3 +198,26 @@ $sweet4->name='Serenade';
 $sweet4->color='blue';
 $sweet4->price='8';
 $label4=$app->add(['Label',$sweet4->name,$sweet4->color.' massive','detail'=>$sweet4->price,'image'=>'http://www.la.lv/wp-content/uploads/2013/10/g1/serenade2.gif']);
+*/
+$db=new
+\atk4\data\Persistence_SQL('mysql:dbname=fdb;host=localhost','root','');
+class Friends extends \atk4\data\Model {
+  public $table = 'friends';
+  function init () {
+    parent::init();
+    $this->addField('name');
+    $this->addField('surname');
+  $this->addField('phone_number',['defalut'=>'+371']);
+    $this->addField('email');
+      $this->addField('birthday',['type'=>'date']);
+   $this->addField('notes',['type'=>'text']);
+ }
+}
+
+$form=$app->layout->add('Form');
+$form->setModel(new Friends($db));
+$form->onSubmit(function ($form) {
+  $form->model->save();
+  return $form->sucess('Record uptated');
+
+})
