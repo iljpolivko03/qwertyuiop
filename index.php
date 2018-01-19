@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-$app = new \atk4\ui\App("Магазин");
+$app = new \atk4\ui\App("Magazin");
 $app->initLayout("Centered");
 /*
 $button = $app->add('Button');
