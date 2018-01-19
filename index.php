@@ -1,6 +1,6 @@
 <?php
 require 'vendor/autoload.php';
-$app = new \atk4\ui\App("Добро пожаловать в якобы игру");
+$app = new \atk4\ui\App("Магазин");
 $app->initLayout("Centered");
 /*
 $button = $app->add('Button');
@@ -221,5 +221,13 @@ $form->onSubmit(function ($form) {
 
 });
 */
-$tabs=$app->add('Menu');
-$tabs->addItem('Shirts');
+$menu=$app->add('Menu');
+$clothes=$menu->addMenu('Clothes');
+$clothes->addItem('Shirts');
+$clothes->addItem('Pants');
+
+$clothes->addItem('Shoes');
+$clothes->addItem('Jeans';
+$clothes->addItem('Jackets');
+
+
