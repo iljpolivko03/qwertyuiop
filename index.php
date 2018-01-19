@@ -222,12 +222,12 @@ $form->onSubmit(function ($form) {
 });
 */
 $menu=$app->add('Menu');
+
 $clothes=$menu->addMenu('Clothes');
 $clothes->addItem('Shirts');
 $clothes->addItem('Pants');
-
 $clothes->addItem('Shoes');
-$clothes->addItem('Jeans';
+$clothes->addItem('Jeans');
 $clothes->addItem('Jackets');
 
 $electronics=$menu->addMenu('Electronics');
