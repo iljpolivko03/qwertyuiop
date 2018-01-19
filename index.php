@@ -221,5 +221,5 @@ $form->onSubmit(function ($form) {
 
 });
 */
-$tabs=$app->add('Tabs');
-$tabs->addTab('Shirts');
+$tabs=$app->add('Menu');
+$tabs->addItem('Shirts');
