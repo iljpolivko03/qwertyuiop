@@ -230,4 +230,10 @@ $clothes->addItem('Shoes');
 $clothes->addItem('Jeans';
 $clothes->addItem('Jackets');
 
+$electronics=$menu->addMenu('Electronics');
+$electronics->addItem('Notebook');
+$electronics->addItem('Mobile Phones');
+$electronics->addItem('Headphones');
+
+
 
