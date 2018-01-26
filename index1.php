@@ -257,3 +257,8 @@ $toys->addItem('Dolls');
 $toys->addItem('Teddy bears');
 $toys->addItem('For babies');
 $toys->addItem('Figures');
+
+$tabs=$app->add('Tabs');
+$clothes=$tabs->addTab('Clothes');
+$electronics=$tabs->addTab('Electronics');
+$toys=$tabs->addTab('Toys');
