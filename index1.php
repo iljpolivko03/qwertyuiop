@@ -263,4 +263,8 @@ $clothes=$tabs->addTab('Clothes');
 $electronics=$tabs->addTab('Electronics');
 $toys=$tabs->addTab('Toys');
 
-$image=$clothes->add(['Image','http://upcouture.com/464/up-t-shirt-homme.jpg']);
+$image=$clothes->add(['Image','https://www.jako.de/Data/Images/Big/jako-herren-t-shirt-run-jako-blau-1-6115.jpg']);
+
+$image->$electronics->add(['Image','https://media.wired.com/photos/59b95b40a9e33173fe3624e5/master/w_2400,c_limit/iphonex_TA.jpg']);
+
+$image->toys->add(['Toys','https://img.brickowl.com/files/image_cache/larger/lego-the-batmobile-two-face-s-escape-set-7781-4.jpg']);
