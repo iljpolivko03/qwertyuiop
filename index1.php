@@ -260,3 +260,7 @@ $toys->addItem('Figures');
 
 $tabs=$app->add('Tabs');
 $clothes=$tabs->addTab('Clothes');
+$electronics=$tabs->addTab('Electronics');
+$toys=$tabs->addTab('Toys');
+
+$image=$clothes->add(['Image','http://upcouture.com/464/up-t-shirt-homme.jpg']);
