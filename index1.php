@@ -197,7 +197,7 @@ $sweet4->name='Serenade';
 $sweet4->color='blue';
 $sweet4->price='8';
 $label4=$app->add(['Label',$sweet4->name,$sweet4->color.' massive','detail'=>$sweet4->price,'image'=>'http://www.la.lv/wp-content/uploads/2013/10/g1/serenade2.gif']);
-*/
+*/ /*
 $db=new
 \atk4\data\Persistence_SQL('mysql:dbname=friends;host=localhost','root','');
 class Friends extends \atk4\data\Model {
@@ -226,3 +226,44 @@ $grid->setModel(new Friends($db));
 
 $crud=$app->layout->add('CRUD');
 $crud->setModel(new Friends($db));
+
+*/
+
+$menu=$app->add('Menu');
+
+
+
+$clothes=$menu->addMenu('Clothes');
+
+$clothes->addItem('Shirts');
+
+$clothes->addItem('Pants');
+
+$clothes->addItem('Shoes');
+
+$clothes->addItem('Jeans');
+
+$clothes->addItem('Jackets');
+
+
+
+$electronics=$menu->addMenu('Electronics');
+
+$electronics->addItem('Notebooks');
+
+$electronics->addItem('Mobile Phones');
+
+$electronics->addItem('Headphones');
+
+$electronics->addItem('Speakers');
+
+$electronics->addItem('TV');
+
+$toys=$menu->addMenu('Toys');
+
+$toys->addItem('Lego');
+$toys->addItem('RC toys');
+$toys->addItem('Dolls');
+$toys->addItem('Teddy bears');
+$toys->addItem('For babies');
+$toys->addItem('Figures');
