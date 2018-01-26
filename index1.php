@@ -231,18 +231,12 @@ $crud->setModel(new Friends($db));
 
 $menu=$app->add('Menu');
 
-
-
 $clothes=$menu->addMenu('Clothes');
 
 $clothes->addItem('Shirts');
-
 $clothes->addItem('Pants');
-
 $clothes->addItem('Shoes');
-
 $clothes->addItem('Jeans');
-
 $clothes->addItem('Jackets');
 
 
@@ -250,13 +244,9 @@ $clothes->addItem('Jackets');
 $electronics=$menu->addMenu('Electronics');
 
 $electronics->addItem('Notebooks');
-
 $electronics->addItem('Mobile Phones');
-
 $electronics->addItem('Headphones');
-
 $electronics->addItem('Speakers');
-
 $electronics->addItem('TV');
 
 $toys=$menu->addMenu('Toys');
