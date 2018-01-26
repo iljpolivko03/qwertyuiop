@@ -260,5 +260,3 @@ $toys->addItem('Figures');
 
 $tabs=$app->add('Tabs');
 $clothes=$tabs->addTab('Clothes');
-$electronics=$tabs->addTab('Electronics');
-$toys=$tabs->addTab('Toys');
