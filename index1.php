@@ -206,10 +206,10 @@ class Friends extends \atk4\data\Model {
     parent::init();
     $this->addField('name');
     $this->addField('surname');
-  $this->addField('phone_number',['defalut'=>371]);
+    $this->addField('phone_number',['defalut'=>371]);
     $this->addField('email');
-      $this->addField('birthday',['type'=>'date']);
-   $this->addField('notes',['type'=>'text']);
+    $this->addField('birthday',['type'=>'date']);
+    $this->addField('notes',['type'=>'text']);
  }
 }
 
