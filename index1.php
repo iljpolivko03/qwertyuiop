@@ -197,37 +197,10 @@ $sweet4->name='Serenade';
 $sweet4->color='blue';
 $sweet4->price='8';
 $label4=$app->add(['Label',$sweet4->name,$sweet4->color.' massive','detail'=>$sweet4->price,'image'=>'http://www.la.lv/wp-content/uploads/2013/10/g1/serenade2.gif']);
-*/ /*
-$db=new
-\atk4\data\Persistence_SQL('mysql:dbname=friends;host=localhost','root','');
-class Friends extends \atk4\data\Model {
-  public $table = 'friends';
-  function init () {
-    parent::init();
-    $this->addField('name');
-    $this->addField('surname');
-    $this->addField('phone_number',['defalut'=>371]);
-    $this->addField('email');
-    $this->addField('birthday',['type'=>'date']);
-    $this->addField('notes',['type'=>'text']);
- }
-}
-
-$form=$app->layout->add('Form');
-$form->setModel(new Friends($db));
-$form->onSubmit(function ($form) {
-  $form->model->save();
-  return $form->success('Record updated');
-
-});
-
-$grid=$app->layout->add('Grid');
-$grid->setModel(new Friends($db));
-
-$crud=$app->layout->add('CRUD');
-$crud->setModel(new Friends($db));
-
 */
+
+
+/*
 
 $menu=$app->add('Menu');
 
@@ -265,3 +238,4 @@ $toys=$tabs->addTab('Toys');
 $image=$clothes->add(['Image','https://www.jako.de/Data/Images/Big/jako-herren-t-shirt-run-jako-blau-1-6115.jpg']);
 $image2=$electronics->add(['Image','https://media.wired.com/photos/59b95b40a9e33173fe3624e5/master/w_2400,c_limit/iphonex_TA.jpg']);
 $image3=$toys->add(['Toys','https://img.brickowl.com/files/image_cache/larger/lego-the-batmobile-two-face-s-escape-set-7781-4.jpg']);
+*/
