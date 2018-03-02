@@ -3,6 +3,7 @@ require 'vendor/autoload.php';
 $app = new \atk4\ui\App("Online shop");
 $app->initLayout("Centered");
 session_start();
+
 $db=new
 \atk4\data\Persistence_SQL('mysql:dbname=friends;host=localhost','root','');
 class Friends extends \atk4\data\Model {
@@ -29,7 +30,7 @@ $form->onSubmit(function ($form) {
   //return $form->success('Record updated');
 }else{
 //  return $form->error('Увы, ты не подходишь');
-return new \atk4\ui\jsExpression('document.location="index.php" ');
+return new \atk4\ui\jsExpression('document.location="error.php" ');
 
 }
 
@@ -40,3 +41,6 @@ $grid->setModel(new Friends($db));
 
 $crud=$app->layout->add('CRUD');
 $crud->setModel(new Friends($db));
+$crud->addQuickSearch(['name','surname']);
+$button=$app->layout->add(['Button','Admin']);
+$button->link(['check']);
